@@ -1,0 +1,58 @@
+﻿<Window x:Class="rarrr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rarrr"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFE265FF">
+        <Button Content="Понравилось" FontSize="20" Foreground="#FFFDFF07" HorizontalAlignment="Left" Height="67" Margin="547,357,0,0" VerticalAlignment="Top" Width="141" Background="#FFFF008C"/>
+        <TextBox HorizontalAlignment="Left" Height="121" Margin="547,231,0,0" TextWrapping="Wrap" Text="Комментарий" FontSize="17" VerticalAlignment="Top" Width="243" Foreground="#FF0800FF">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/i.jpg"/>
+            </TextBox.Background>
+        </TextBox>
+        <Image Source="/k.jpg" HorizontalAlignment="Left" Height="302" Margin="10,8,0,0" VerticalAlignment="Top" Width="505"/>
+        <Canvas HorizontalAlignment="Left" Height="172" Margin="10,246,0,0" VerticalAlignment="Top" Width="248">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/m.jpg"/>
+            </Canvas.Background>
+        </Canvas>
+        <Calendar HorizontalAlignment="Left" Height="166" Margin="31,29,0,0" VerticalAlignment="Top" Width="175">
+            <Calendar.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE4EAF0"/>
+                    <GradientStop Color="#FFECF0F4" Offset="0.16"/>
+                    <GradientStop Color="#FFFCFCFD" Offset="0.16"/>
+                    <GradientStop Color="#FF00FFED" Offset="1"/>
+                </LinearGradientBrush>
+            </Calendar.Background>
+        </Calendar>
+        <RadioButton Content="Blue" HorizontalAlignment="Left" Height="31" Margin="298,38,0,0" VerticalAlignment="Top" Width="168" Background="Red" Foreground="Purple" FontSize="14" FontFamily="Book Antiqua" FontWeight="ExtraBold"/>
+        <RadioButton Content="Purple" HorizontalAlignment="Left" Height="31" Margin="298,69,0,0" VerticalAlignment="Top" Width="168" Background="Orange" Foreground="Red" FontSize="15" FontFamily="Book Antiqua" FontStyle="Oblique"/>
+        <RadioButton Content="Rad" HorizontalAlignment="Left" Height="31" Margin="298,105,0,0" VerticalAlignment="Top" Width="168" Background="Yellow" Foreground="Orange" FontSize="16" FontFamily="Book Antiqua" FontWeight="ExtraBold"/>
+        <RadioButton Content="Orange" HorizontalAlignment="Left" Height="31" Margin="298,136,0,0" VerticalAlignment="Top" Width="168" Background="Green" Foreground="Yellow" FontSize="17" FontFamily="Book Antiqua" FontStyle="Oblique"/>
+        <RadioButton Content="Yellow" HorizontalAlignment="Left" Height="31" Margin="298,167,0,0" VerticalAlignment="Top" Width="168" Background="DeepSkyBlue" Foreground="Green" FontWeight="ExtraBold" FontFamily="Book Antiqua" FontSize="18"/>
+        <RadioButton Content="Green" HorizontalAlignment="Left" Height="31" Margin="298,198,0,0" VerticalAlignment="Top" Width="168" Background="Blue" Foreground="DeepSkyBlue" FontSize="19" FontFamily="Book Antiqua" FontStyle="Oblique"/>
+        <RadioButton Content="Sky Blue" HorizontalAlignment="Left" Height="31" Margin="298,231,0,0" VerticalAlignment="Top" Width="168" Background="Purple" Foreground="Blue" FontSize="20" FontFamily="Book Antiqua" FontWeight="ExtraBold"/>
+        <CheckBox Content="(─‿‿─)" HorizontalAlignment="Left" Height="25" Margin="586,38,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="| (• ◡•)|" HorizontalAlignment="Left" Height="25" Margin="586,68,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(❍ᴥ❍ʋ)" HorizontalAlignment="Left" Height="25" Margin="586,98,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="ʕ ᵔᴥᵔ ʔ" HorizontalAlignment="Left" Height="25" Margin="586,128,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(^◕ᴥ◕^)" HorizontalAlignment="Left" Height="25" Margin="586,158,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(◕‿◕)♡" HorizontalAlignment="Left" Height="25" Margin="586,188,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="♫•*¨*•.¸¸♪" HorizontalAlignment="Left" Height="25" Margin="679,38,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(￣^￣)ゞ" HorizontalAlignment="Left" Height="25" Margin="679,68,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(╯°□°)╯" HorizontalAlignment="Left" Height="25" Margin="679,98,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="( ͡° ͜ʖ ͡°)" HorizontalAlignment="Left" Height="25" Margin="679,128,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(๑˃ᴗ˂)ﻭ" HorizontalAlignment="Left" Height="24" Margin="679,158,0,0" VerticalAlignment="Top" Width="88"/>
+        <CheckBox Content="(｡•́︿•̀｡)" HorizontalAlignment="Left" Height="25" Margin="679,188,0,0" VerticalAlignment="Top" Width="88"/>
+        <Button HorizontalAlignment="Left" Height="67" Margin="693,357,0,0" VerticalAlignment="Top" Width="97">
+            <Button.Background>
+                <ImageBrush ImageSource="/e.jpg"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
